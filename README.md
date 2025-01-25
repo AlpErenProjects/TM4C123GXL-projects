@@ -41,16 +41,6 @@ Fonksiyonlar
 Kullanım
 Kırmızı LED, floating point hesaplamaları ile parlaklığını değiştiren bir uygulamadır.
 ________________________________________
-Proje 6: Hibernation Modu ve LED Kontrolü
-Açıklama
-Bu proje, mikrodenetleyici hibernation moduna girer ve RTC alarmı kullanarak 10 saniye sonra uyanır. Uyanınca LED yeniden yanar.
-Fonksiyonlar
-•	Hibernation Modu: Mikrodenetleyici düşük güç moduna geçer.
-•	RTC Alarmı: Hibernation modundan uyanmak için RTC alarmı kullanılır.
-•	LED Kontrolü: Hibernation modundan uyanınca LED'in yanmasını sağlar.
-Kullanım
-Mikrodenetleyici hibernation moduna geçtikten sonra 10 saniye boyunca uyur ve LED tekrar yanar.
-________________________________________
 Proje Genel Yapı
 Tüm projeler için Tiva C Series TM4C123GH6PM mikrodenetleyicisi kullanılmıştır ve tüm projeler, mikrodenetleyicinin çeşitli özelliklerini kullanarak farklı fonksiyonları yerine getirir. Bu projeler, düşük seviye donanım erişimi ve çeşitli mikrodenetleyici özelliklerini öğrenmek ve kullanmak isteyenler için uygun örnekler sunmaktadır.
 
